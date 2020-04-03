@@ -89,3 +89,12 @@ para[8].textContent = siteContent["footer"]["copyright"];
 navItem.forEach(element => {
   element.style.color = "green";
 });
+
+// 2 new items
+const newNav1 = document.createElement("a");
+newNav1.textContent = "Second";
+navItem[5].appendChild(newNav1);
+
+const newNav2 = document.createElement("a");
+newNav2.textContent = "First";
+navItem[0].prepend(newNav2);
