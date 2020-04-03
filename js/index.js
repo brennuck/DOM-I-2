@@ -84,3 +84,8 @@ para[5].textContent = siteContent["contact"]["address"];
 para[6].textContent = siteContent["contact"]["email"];
 para[7].textContent = siteContent["contact"]["phone"];
 para[8].textContent = siteContent["footer"]["copyright"];
+
+// change color
+navItem.forEach(element => {
+  element.style.color = "green";
+});
