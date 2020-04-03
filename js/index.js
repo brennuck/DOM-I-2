@@ -56,3 +56,10 @@ navItem[2].textContent = siteContent["nav"]["nav-item-3"]
 navItem[3].textContent = siteContent["nav"]["nav-item-4"]
 navItem[4].textContent = siteContent["nav"]["nav-item-5"]
 navItem[5].textContent = siteContent["nav"]["nav-item-6"]
+
+// cta
+let ctaHeader = document.querySelector("h1");
+ctaHeader.textContent = siteContent["cta"]["h1"];
+
+let ctaBtn = document.querySelector("button");
+ctaBtn.textContent = siteContent["cta"]["button"];
