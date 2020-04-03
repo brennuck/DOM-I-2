@@ -63,3 +63,18 @@ ctaHeader.textContent = siteContent["cta"]["h1"];
 
 let ctaBtn = document.querySelector("button");
 ctaBtn.textContent = siteContent["cta"]["button"];
+
+// main-content
+let mainHeaders = document.querySelectorAll("h4");
+mainHeaders[0].textContent = siteContent["main-content"]["features-h4"];
+mainHeaders[1].textContent = siteContent["main-content"]["about-h4"];
+mainHeaders[2].textContent = siteContent["main-content"]["services-h4"];
+mainHeaders[3].textContent = siteContent["main-content"]["product-h4"];
+mainHeaders[4].textContent = siteContent["main-content"]["vision-h4"];
+
+let mainPara = document.querySelectorAll("p");
+mainPara[0].textContent = siteContent["main-content"]["features-content"];
+mainPara[1].textContent = siteContent["main-content"]["about-content"];
+mainPara[2].textContent = siteContent["main-content"]["services-content"];
+mainPara[3].textContent = siteContent["main-content"]["product-content"];
+mainPara[4].textContent = siteContent["main-content"]["vision-content"];
